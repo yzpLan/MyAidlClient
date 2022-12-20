@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:onClick="bind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="绑定服务"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:onClick="unBind"
+        tools:ignore="OnClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="解绑服务" />
+
+    <Button
+        android:onClick="sendMessage"
+        tools:ignore="OnClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="发送消息" />
+
+    <Button
+        android:onClick="getMessage"
+        tools:ignore="OnClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="获取消息" />
+
+</LinearLayout>
